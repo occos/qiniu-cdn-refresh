@@ -11,7 +11,7 @@ import (
 func Usage() {
 	_, _ = fmt.Fprintf(os.Stderr, `
 Name: cdn_refresh
-Version: cdn_refresh/0.0.1
+Version: v0.0.1
 Description: 对接七牛云CDN服务，可以对CDN上部署的域名进行目录刷新
 Usage: cdn_refresh -a <accessKey> -s <secretKey> -u <urlDir>
 
